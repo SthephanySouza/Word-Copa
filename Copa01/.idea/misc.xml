@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2 ETIM DS/2ETIMDS - ROGERIO E STHEPHANY/PAM/Pam_Trabalho_Copa-main/Pam_Trabalho_Copa-main/Copa01/app/src/main/res/layout/activity_home.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/btn_bg.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/copa_home_categoria.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/et_bg.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/graad_bg.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/grey_cursor_color.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/ic_launcher_background.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/lojashape.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/menushape.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/shape_container_categoria.xml" value="0.262" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/drawable/shape_container_jogadores.xml" value="0.251" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_jogosensor.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_loja.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_menu.xml" value="0.20425138632162662" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_selecaonova.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/activity_telajogadores.xml" value="0.259375" />
+        <entry key="..\:/Users/luizm/AndroidStudioProjects/Copa01/app/src/main/res/layout/mapa.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

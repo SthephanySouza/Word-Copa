@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backclaro"
+    android:layout_height="match_parent"
+    tools:context=".loja">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:background="@drawable/lojashape"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="4">
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginLeft="40dp"
+                        android:textStyle="bold"
+
+                        android:textSize="20dp"
+                        android:layout_marginVertical="20dp"
+                        android:textColor="@color/white"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="5dp"
+                        android:background="@color/cardview_shadow_start_color"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Seleções 2022 ">
+
+                    </TextView>
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:layout_marginHorizontal="10dp"
+                        android:text="As equipes são chaveadas continentalmente, e competem por um número fixo de vagas, com uma ou duas vagas reservadas a vencedores de repescagens inter-continentais."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/mundo">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destaques"
+                android:textColor="@color/color02"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2022"
+                android:textColor="@color/color02"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Definições"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color02"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="700dp"
+                    android:layout_marginBottom="75dp"
+                    android:padding="15dp">
+
+                    <ScrollView
+                        android:layout_marginTop="173dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1590dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="03dp" />
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+
+                                    android:background="@drawable/band_brasil" />
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginStart="160dp"
+                                    android:text="@string/txtbrasil"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginStart="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="O Brasil é o maior vencedor de Copas do Mundo, sendo o único país que pentacampeão. Outro dado interessante é que a seleção brasileira é a única que participou de todas as Copas realizadas até hoje"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_alemanha" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="Alemanha"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="A Alemanha tem um rendimento impressionante nos Mundiais. Os alemães venceram quatro Copas do Mundo (1954, 1974, 1990 e 2014)."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_angentina" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+
+                                    android:text="Argentina"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="A última vez que ela levantou um troféu foi na Copa América de 2021."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_australia" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="Austrália"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="Se tornou conhecido por ter marcado o maior número de gols em uma única edição da Copa do Mundo da FIFA, com 13 em seis partidas na edição de 1958."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_espanha" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="Espanha"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="Foi a primeira a contar com 24 seleções, entre elas várias estreantes. No total, 105 países participaram das eliminatórias."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_franca" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="França"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="A equipe mais bem sucedida da Copa é o Paris Saint-Germain, com 14 títulos, tendo ainda 5 vice-campeonatos."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_portugal" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="Portugal"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="A seleção portuguesa participou de quatro mundiais e disputará em 2010 novamente a Copa do Mundo de futebol. Em duas ocasiões os portugueses chegaram às semifinais."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp">
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/band_japao" />
+
+                                <TextView
+                                    android:layout_width="147dp"
+                                    android:layout_height="53dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:text="Japão"
+                                    android:textColor="@color/color01"
+                                    android:textSize="24dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:layout_marginLeft="160dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="
+ Japão sediou a Copa do Mundo de 2002 juntamente com a Coreia do Sul. O Japão sediou os Jogos Olímpicos de Verão de 1964 e de 2020."
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </ScrollView>
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#009688"
+                    android:text="   Destaques das seleções:"
+                    android:textSize="22sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:padding="05dp"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:padding="05dp"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/cristianor" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:padding="05dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/garotoney" />
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:padding="05dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/seila" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:padding="05dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/sein" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="05dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/messi" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="05dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/numsei" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="20dp"
+                            android:elevation="10dp"
+                            app:cardCornerRadius="70dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="05dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/mbp" />
+
+                            </LinearLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="100dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_selecoespramenu"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="50dp"
+            android:layout_centerInParent="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/graad_bg"></LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
